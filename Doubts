@@ -12,3 +12,26 @@ Python
 How can deploy these applications do I neeed to use single server or seperate server for each application
 Do I need to purchase sepearte domain for each or with single domain  and use subdomains and map everything under it to reduce cost
 What happens If I deploy in single server 
+
+
+
+**Q1: How can I deploy multiple applications on a single server or separate servers?**
+
+A1: You can deploy multiple applications on a single server or separate servers. If you use a single server, you'll need to configure server-side routing to direct incoming requests to the correct application. If you use separate servers, you can add multiple A records and IP addresses for each server.
+
+**Q2: How can I configure subdomains in GoDaddy?**
+
+A2: To configure subdomains in GoDaddy, create subdomains in the DNS tab, update DNS records to point to the correct server IP address, and configure server-side routing (if using a single server).
+
+**Q3: What if I use a single server?**
+
+A3: If you use a single server, you'll need to configure server-side routing to direct incoming requests to the correct application. You can use Nginx to create separate server blocks for each subdomain.
+
+**Q4: What if I use multiple servers?**
+
+A4: If you use multiple servers, you can add multiple A records and IP addresses for each server. Each subdomain will point to a specific server, and you won't need to configure server-side routing.
+
+**Q5: Can I use a load balancer?**
+
+A5: Yes, you can use a load balancer to distribute traffic across multiple servers. Configure the load balancer to route requests for each subdomain to the corresponding server.
+
