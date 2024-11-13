@@ -1,0 +1,14 @@
+I have code mutliple applications which deal with MCQ's  scenario based questions and materials 
+
+I have 7 applications totally 
+AI
+React JS
+Datascience
+DevOps with AWS
+DevOps with Azure
+Java
+Python
+
+How can deploy these applications do I neeed to use single server or seperate server for each application
+Do I need to purchase sepearte domain for each or with single domain  and use subdomains and map everything under it to reduce cost
+What happens If I deploy in single server 
